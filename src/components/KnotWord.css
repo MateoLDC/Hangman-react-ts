@@ -1,0 +1,16 @@
+.word {
+  display: flex;
+  gap: 0.25em;
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: monospace;
+}
+
+.lines {
+  border-bottom: 0.1em solid black;
+}
+
+/* .visible_letter {
+  visibility: hidden;
+} */

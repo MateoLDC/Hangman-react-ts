@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=New+Rocker&display=swap");
+body {
+  background-color: rgb(94, 94, 247);
+  font-family: "New Rocker", cursive;
+}
+
+.jsp {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.toptext {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.keyboard-box {
+  align-self: stretch;
+}

@@ -1,0 +1,99 @@
+.draw {
+  position: relative;
+}
+
+/* The gallows top to bottom */
+
+.wood3 {
+  height: 10px;
+  width: 200px;
+  background-color: black;
+  margin-left: 120px;
+}
+
+.knot {
+  height: 50px;
+  width: 10px;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.wood2 {
+  height: 400px;
+  width: 10px;
+  background-color: black;
+  margin-left: 120px;
+}
+
+.wood1 {
+  height: 10px;
+  width: 250px;
+  background-color: black;
+}
+
+/* The stickman */
+
+.head {
+  height: 50px;
+  width: 50px;
+  border: 10px solid black;
+  border-radius: 100%;
+  position: absolute;
+  top: 50px;
+  right: -30px;
+}
+
+.body {
+  height: 125px;
+  width: 10px;
+  background-color: black;
+  position: absolute;
+  top: 120px;
+  right: 0px;
+}
+
+.right_arm {
+  height: 100px;
+  width: 10px;
+  background-color: black;
+  position: absolute;
+  top: 70px;
+  right: 0px;
+  transform: rotate(-50deg);
+  transform-origin: left bottom;
+}
+
+.left_arm {
+  height: 100px;
+  width: 10px;
+  background-color: black;
+  position: absolute;
+  top: 70px;
+  right: 0px;
+  transform: rotate(50deg);
+  transform-origin: right bottom;
+}
+
+.right_leg {
+  height: 100px;
+  width: 10px;
+  background-color: black;
+  position: absolute;
+  top: 235px;
+  right: 0px;
+  transform: rotate(50deg);
+  transform-origin: left top;
+}
+
+.left_leg {
+  height: 100px;
+  width: 10px;
+  background-color: black;
+  position: absolute;
+  top: 235px;
+  right: 0px;
+  transform: rotate(-50deg);
+  transform-origin: right top;
+}

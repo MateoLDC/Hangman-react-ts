@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=New+Rocker&display=swap");
+.keyboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
+  gap: 0.5rem;
+}
+
+.key {
+  width: 100%;
+  border: 3px solid #3030ab;
+  background: none;
+  aspect-ratio: 1/1;
+  font-size: 2rem;
+  text-transform: uppercase;
+  padding: 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: #3030ab;
+  font-family: "New Rocker", cursive;
+}
+
+.key.active {
+  background-color: #f8e48ac9;
+}
+
+.key.inactive {
+  opacity: 0.3;
+}
+
+.key:hover:not(:disabled),
+.btn:focus:not(:disabled) {
+  background-color: #f7dc5e;
+}
